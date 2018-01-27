@@ -3,76 +3,136 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+
+        .top-nav-collapse {
+            background-color: #82b1ff !important; 
+        }
+        .navbar:not(.top-nav-collapse) {
+            background: transparent !important;
+        }
+        @media (max-width: 768px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #82b1ff !important;
+            } 
+        }
+        .intro-1 {
+            height: 1050px;
+        }
+        @media (min-width: 770px) and (max-width: 1025px) {
+            .intro-1 {
+                height: 750px;
+            }
+        }
+        @media (max-width: 740px) {
+            .intro {
+                height: 600px;
+            }
+        }
+    
+      </style>
+
+
   </head>
   <body>
 
-
-    <div class="container">
-      <!-- Image and text -->
-      <nav class="navbar navbar-light bg-light">
-       <a class="navbar-brand" href="#">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/725px-NASA_logo.svg.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        Bootstrap
-        </a>
-         <div class="container">
-          <div class="dropdown show">
-            <div class="col">
-            
     
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown link
-  </a>
+        
+ <header>
+        
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#"><strong><img src="https://cdn.iconverticons.com/files/png/391eb18a51565736_256x256.png" width="30" height="30" class="d-inline-block align-top" alt=""></strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </nav>
 
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">Overview</a>
-    <a class="dropdown-item" href="#">Meet the Cast</a>
-    <a class="dropdown-item" href="#">-</a>
-  </div>
-  </div>
-  </div>
-  </div>
+    </header>
 
 
-      </nav>
+ 
 
-      <!-- <nav>
-        <div class="pos-f-t">
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <h4 class="text-white">Collapsed content</h4>
-      <span class="text-muted">Toggleable via the navbar brand.</span>
+<div class="view intro hm-white-light jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(https://mrwallpaper.com/wp-content/uploads/Minimalism-Landscape-Mountains-Lake-Clear-Sky-Reflection-Low-Poly-1920x1080.jpg); height: 1000px;">
+    <div class="full-bg-img">
+        <div class="container">
+            <div class="d-flex align-items-center d-flex justify-content-center" style="height: 850px">
+                <div class="row mt-5">
+                    <div class="col-md-12 wow fadeIn mb-3">
+                        <div class="intro-info-content text-center">
+                            <h1 class="display-1 mb-2 wow fadeInDown VT" data-wow-delay="0.3s">WIZARDS & WARLOCKS <a class="indigo-text font-bold"></a></h1>
+                            <h3 class="font-up mb-3 mt-1 font-bold wow fadeIn VT" data-wow-delay="0.4s">COMING SOON...</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav> -->
 </div>
-      </nav>
-      </nav>
-      <div id="banner">
-        Banner
-      </div>
-      <div id="about">
-        About
-      </div>
-      <div id="experience">
-        Experience
-      </div>
-      <div id="projects">
-        Projects
-      </div>
-      <div id="contact">
-        Contact
-      </div>
-      <footer>
-        Footer
-      </footer>
+
+<div class="container">
+    
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-12 text-center mb-3">
+
+        <h1 class="font-bold light-blue-text my-3 VT">AND BY SOON WE MEAN SOMETIMES IN THE NEXT 10 YEARS...
+        </h1>
+            <h3 class="VT"> NO SERIOUSLY, YOU HAVE NO CLUE HOW LONG IT TAKES TO MAKE A GAME</h3>
+   
+        </div>
+        <!--Grid column-->
+    
     </div>
-  </body>
-</html>
+    <!--Grid row-->
+
+</div>
+
+<div class="view intro hm-white-light jarallax" data-jarallax-video="https://vimeo.com/groups/freehd/videos/153749651" style="background-image: url(https://vimeo.com/174596730);">
+    <div class="full-bg-img">
+        <div class="container">
+            <div class="d-flex align-items-center d-flex justify-content-center" style="height: 700px">
+                <div class="row mt-5">
+                    <div class="col-md-12 wow fadeIn mb-3">
+                        <div class="intro-info-content text-center">
+                            <h1 class="display-1 mb-2 wow fadeInDown VT" data-wow-delay="0.3s">Footage<a class="white-text font-bold VT">(NOT REALLY)</a></h1>
+                            <h5 class="font-up mb-3 mt-1 font-bold wow fadeIn VT" data-wow-delay="0.4s">JUST ADDED THIS SINCE ITS COOL </h5>
+                            <a class="btn btn-elegant btn-lg wow fadeIn VT" data-wow-delay="0.4s">THIS WILL</a> <a class="btn btn-outline-white btn-lg wow fadeIn VT" data-wow-delay="0.4s">CHANGE LATER</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
